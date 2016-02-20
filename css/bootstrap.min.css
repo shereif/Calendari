@@ -6,14 +6,13 @@
 /*# sourceMappingURL=bootstrap.min.css.map */
 
 body {
-	padding-top: 40px;
-	background-color: #3498db;
+    padding-top: 40px;
 }
 
 h1 {
-	text-align: center;
-  	margin: .67em 0;
-  	font-size: 4em;
+    text-align: center;
+    margin: .67em 0;
+    font-size: 2em;
 }
 
 ul {
@@ -21,38 +20,22 @@ ul {
     top: 0;
     width: 100%;
     border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
     list-style-type: none;
     margin: 0;
-    padding: 5px;
+    padding: 0;
     overflow: hidden;
-    background-color: #ecf0f1;
 }
 
 li {
-	color: #ecf0f1;
-	display: inline;
-	font-size: 20px;
-	padding-right: 7.5px;
+    color: #666;
+    display: inline;
 }
 
 @media (max-width: 800px){
-	h1{
-		margin: .50em 0;
-		font-size: 2.5em;
-	}
 
-	li{
-		font-size: 16px;
-	}
 }
 
 @media (max-width: 500px){
-	h1{
-		margin: .33em 0;
-		font-size: 1.5em;
-	}
 
-	li{
-		font-size: 12px;
-	}
 }
