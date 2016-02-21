@@ -22,14 +22,17 @@
     		this.style.color = "green";
     		this.style.fontSize = "20px";
     	}
+    	function loggedIn(usrn){
+    		document.cookie = "loggedIn=true,
+    							username=" + usrn
+    							"
+    	}
     </script>
   </head>
 
 	<body>
 		<title>Welcome to Calendari!</title>
-		<h1>Welcome!</h1>
-		<h2>Left</h2>
-		<h3>Right</h3>
+		<h1 a><u>Welcome!</u></h1>
 	</body>
 
 	<nav>
@@ -37,7 +40,7 @@
 			<li><a href="">Home</li>
 			<li><a href="">About</li>
 			<li><a href="">Contact</li>
-		</ul
+		</ul>
 	</nav>
 </html>
 
