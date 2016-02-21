@@ -23,32 +23,42 @@ body {
 body h1 {
 	text-align: center;
   	margin: .67em 0;
-  	font-size: 5em;
+  	font-size: 4em;
     padding-top: 66px;
     color: #ecf0f1;
 }
 
-.inputfile{
-	width: 185px;
+.uploadimage .inputfile{
+	/*width: 185px;
 	height: 46px;
 	display: block;
-	position: absolute;
-	opacity: 0; 
-	filter:alpha(opacity: 0);
+	position: absolute;*/
 }
 
-.uploadschedule{
+/*.uploadschedule{
 	position: absolute;
-}
+}*/
 
-.btn-group{
+/*.btn-group{
 	text-align: center;
+}*/
+
+.topnav {
+    font-size: 14px;
+    color: #f8f8f8;
+}
+.navbar-nav{
+	float: right;
+}
+
+#my_navbar{
+	color: #f8f8f8;
 }
 
 @media (max-width: 767px){
 	body h1{
 		margin: .50em 0;
-		font-size: 2.5em;
+		font-size: 2em;
 		padding-top: 40px;
 	}
 
